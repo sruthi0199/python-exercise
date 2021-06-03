@@ -1,0 +1,6 @@
+s1=input("Enter a string:")
+s2=input("Enter a string:")
+set1=set(s1)
+set2=set(s2)
+set1.intersection_update(set2)
+print(set1)
